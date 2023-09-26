@@ -23,7 +23,7 @@ function adicionar(){
 function finalizar(){
     let tot = valores.length
     if(tot == 0){
-        window.alert("Adiciones valores antes de finalizar!")
+        window.alert("Adicione valores antes de finalizar!")
     } else{
         let menor = valores[0]
         let maior = valores[0]
