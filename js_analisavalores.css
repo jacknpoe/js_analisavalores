@@ -25,3 +25,13 @@ footer{
     color: white;
     text-align: center;
 }
+
+@media (prefers-color-scheme: dark) { 
+  body{
+     color: #fff;
+     background-color: #111;
+  }
+  section{
+    background-color: #111;
+  }
+}
